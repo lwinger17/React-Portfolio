@@ -1,0 +1,10 @@
+# https://www.robotstxt.org/robotstxt.html
+# think of it as something that can block trackers
+User-agent: *
+Disallow: /track
+Disallow: /analytics
+Disallow: /beacon
+Disallow: *.google-analytics.com
+Disallow: *.googleadservices.com
+
+
